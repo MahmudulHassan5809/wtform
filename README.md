@@ -21,17 +21,16 @@
 ## 📁 Project Structure
 
 ```
+    simpleorm/
+    ├── column.py # Column definition for table schemas
+    ├── database.py # Database connection manager and logic
+    ├── table.py # Base Table class with ORM-like methods
+    ├── models/
+    │ ├── user.py # Example User model
+    │ └── post.py # Example Post model
+    ├── main.py # Example usage
 
-simpleorm/
-├── column.py # Column definition for table schemas
-├── database.py # Database connection manager and logic
-├── table.py # Base Table class with ORM-like methods
-├── models/
-│ ├── user.py # Example User model
-│ └── post.py # Example Post model
-├── main.py # Example usage
-
-````
+    ````
 
 ---
 
