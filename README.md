@@ -1,10 +1,8 @@
----
-
-```markdown
+```
 # 🐍 SimpleORM - A Lightweight SQLite ORM-Like Layer
 
-> ⚠️ **Disclaimer**: This project is for educational and experimental purposes only.  
-> **Do NOT use this in real-world or production applications.**  
+> ⚠️ **Disclaimer**: This project is for educational and experimental purposes only.
+> **Do NOT use this in real-world or production applications.**
 > It lacks proper security, robustness, migrations, and validation you'd expect from a full ORM.
 
 ---
@@ -33,7 +31,7 @@ simpleorm/
 │ └── post.py # Example Post model
 ├── main.py # Example usage
 
-```
+````
 
 ---
 
@@ -54,7 +52,7 @@ class User(Table["User"]):
     name = Column("name", "TEXT", nullable=False)
     email = Column("email", "TEXT", nullable=False)
     age = Column("age", "INTEGER")
-```
+````
 
 ```python
 # models/post.py
